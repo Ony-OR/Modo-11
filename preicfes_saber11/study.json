@@ -1,0 +1,224 @@
+{
+  "version": "Guía Icfes Saber 11° 2026-2 · Calendario A",
+  "exam": {
+    "summary": "Saber 11 evalúa cinco pruebas de selección múltiple con única respuesta. El cuadernillo estándar distribuye el trabajo en dos sesiones de 4 h 30 min. Los cuestionarios auxiliares no suman al resultado de las cinco pruebas.",
+    "sessions": [
+      {
+        "name": "Sesión 1",
+        "time": "4 h 30 min",
+        "rows": [
+          ["Matemáticas", "25"],
+          ["Lectura Crítica", "41"],
+          ["Sociales y Ciudadanas", "25"],
+          ["Ciencias Naturales", "29"],
+          ["Cuestionario socioeconómico", "11"],
+          ["Clima escolar", "12"],
+          ["Total del cuadernillo", "143"]
+        ]
+      },
+      {
+        "name": "Sesión 2",
+        "time": "4 h 30 min",
+        "rows": [
+          ["Matemáticas", "25"],
+          ["Lectura Crítica", "—"],
+          ["Sociales y Ciudadanas", "25"],
+          ["Ciencias Naturales", "29"],
+          ["Inglés", "55"],
+          ["Cuestionario socioeconómico", "13"],
+          ["Clima escolar", "12"],
+          ["Total del cuadernillo", "159"]
+        ]
+      }
+    ],
+    "note": "La guía 2026-2 indica el cuadernillo estándar de Calendario A. Las versiones con ajustes razonables pueden tener otra estructura. Este pre-ICFES es un diagnóstico corto y no convierte el porcentaje de aciertos a puntaje oficial."
+  },
+  "areas": [
+    {
+      "id": "Lectura Crítica",
+      "short": "LECTURA",
+      "icon": "Aa",
+      "color": "coral",
+      "description": "Comprender, interpretar y evaluar textos de la vida cotidiana y de contextos académicos no especializados.",
+      "competencies": [
+        {"name": "Identificar información local", "weight": 25, "description": "Comprender palabras, expresiones y datos que aparecen explícitamente."},
+        {"name": "Relacionar e interpretar", "weight": 42, "description": "Conectar partes del texto, inferir y reconocer la idea global."},
+        {"name": "Evaluar y reflexionar", "weight": 33, "description": "Analizar propósito, argumentos, tono, forma y contenido."}
+      ],
+      "focus": ["Tesis y argumentos", "Inferencias", "Relaciones entre párrafos", "Propósito y tono", "Vocabulario en contexto", "Textos continuos y discontinuos"]
+    },
+    {
+      "id": "Matemáticas",
+      "short": "MATEMÁTICAS",
+      "icon": "∑",
+      "color": "blue",
+      "description": "Usar herramientas matemáticas para interpretar información, resolver problemas y justificar procedimientos.",
+      "competencies": [
+        {"name": "Interpretación y representación", "weight": 34, "description": "Leer y transformar tablas, gráficas, diagramas y datos."},
+        {"name": "Formulación y ejecución", "weight": 43, "description": "Elegir y aplicar estrategias para resolver situaciones."},
+        {"name": "Argumentación", "weight": 23, "description": "Validar procedimientos, conclusiones y afirmaciones."}
+      ],
+      "focus": ["Proporcionalidad y porcentajes", "Álgebra y funciones", "Geometría y medición", "Estadística y lectura de gráficas", "Probabilidad", "Modelación de situaciones"]
+    },
+    {
+      "id": "Sociales y Ciudadanas",
+      "short": "SOCIALES",
+      "icon": "◎",
+      "color": "gold",
+      "description": "Comprender el mundo social, analizar perspectivas y pensar críticamente como ciudadano.",
+      "competencies": [
+        {"name": "Pensamiento social", "weight": 30, "description": "Usar conceptos sociales, principios constitucionales e instituciones."},
+        {"name": "Interpretar perspectivas", "weight": 40, "description": "Reconocer intereses, argumentos y puntos de vista en contexto."},
+        {"name": "Pensamiento reflexivo y sistémico", "weight": 30, "description": "Relacionar dimensiones de un problema y valorar efectos de soluciones."}
+      ],
+      "focus": ["Constitución y derechos", "Participación democrática", "Instituciones colombianas", "Historia y territorio", "Economía cotidiana", "Análisis de fuentes y perspectivas"]
+    },
+    {
+      "id": "Ciencias Naturales",
+      "short": "CIENCIAS",
+      "icon": "⚛",
+      "color": "green",
+      "description": "Explicar fenómenos, usar conocimiento científico e interpretar datos de investigaciones.",
+      "competencies": [
+        {"name": "Uso comprensivo", "weight": 30, "description": "Relacionar conceptos de biología, física y química con fenómenos."},
+        {"name": "Explicación de fenómenos", "weight": 30, "description": "Construir explicaciones coherentes a partir de modelos y evidencias."},
+        {"name": "Indagación", "weight": 40, "description": "Analizar diseños experimentales, variables, datos y conclusiones."}
+      ],
+      "components": ["Biología · 30 %", "Física · 30 %", "Química · 30 %", "Ciencia, tecnología y sociedad · 10 %"],
+      "focus": ["Biología y ecosistemas", "Física y energía", "Química y materia", "Variables y diseño experimental", "Lectura de datos", "Ciencia, tecnología y sociedad"]
+    },
+    {
+      "id": "Inglés",
+      "short": "INGLÉS",
+      "icon": "EN",
+      "color": "purple",
+      "description": "Demostrar comprensión lectora y uso comunicativo del inglés en situaciones contextualizadas.",
+      "competencies": [
+        {"name": "Parte 1 · vocabulario", "weight": 11, "description": "Relacionar descripciones con palabras."},
+        {"name": "Parte 2 · pragmática", "weight": 11, "description": "Elegir una respuesta adecuada en un diálogo."},
+        {"name": "Parte 3 · comunicación", "weight": 11, "description": "Interpretar el propósito y el contexto de intercambios breves."},
+        {"name": "Parte 4 · gramática", "weight": 18, "description": "Completar un texto con estructuras correctas."},
+        {"name": "Parte 5 · lectura literal", "weight": 16, "description": "Ubicar información explícita en un texto."},
+        {"name": "Parte 6 · inferencia", "weight": 11, "description": "Inferir intención, idea general y detalles."},
+        {"name": "Parte 7 · gramática y vocabulario", "weight": 22, "description": "Completar un texto usando vocabulario y gramática."}
+      ],
+      "focus": ["Vocabulario frecuente", "Diálogos y cortesía", "Presente y pasado", "Conectores", "Comprensión literal", "Inferencias en textos cortos"]
+    }
+  ],
+  "learning": [
+    {
+      "area": "Lectura Crítica",
+      "short": "LECTURA",
+      "icon": "Aa",
+      "topics": [
+        {"title": "Inferencia", "summary": "Aprende a obtener conclusiones que estén sustentadas por pistas del texto, sin añadir ideas que el autor no afirma.", "steps": ["Subraya los datos que permiten llegar a la conclusión.", "Formula una idea que una varias pistas.", "Descarta opciones que incluyen afirmaciones absolutas."], "check": "Puedes explicar qué evidencia sostiene una conclusión y distinguirla de una suposición."},
+        {"title": "Tesis y argumento", "summary": "Diferencia la postura principal de los motivos, ejemplos y datos que un texto utiliza para defenderla.", "steps": ["Pregunta qué quiere demostrar el autor.", "Separa la tesis de las razones.", "Verifica si cada argumento está relacionado con la propuesta."], "check": "Puedes resumir la tesis en una oración y señalar al menos un argumento que la respalde."},
+        {"title": "Lectura de información", "summary": "Identifica datos explícitos en textos, tablas y avisos sin interpretar más allá de lo escrito.", "steps": ["Lee el título y las unidades.", "Busca la cifra o afirmación exacta.", "Contrasta cada opción con los datos disponibles."], "check": "Encuentras la respuesta directamente y puedes mencionar dónde aparece la evidencia."},
+        {"title": "Propósito comunicativo", "summary": "Reconoce qué busca lograr un texto y qué acción espera del lector según su contexto y género.", "steps": ["Identifica si informa, persuade, describe o instruye.", "Observa palabras y llamadas a la acción.", "Relaciona el propósito con el destinatario."], "check": "Puedes decir por qué el texto fue escrito y qué debería hacer el lector."},
+        {"title": "Relación entre ideas", "summary": "Comprende cómo se conectan las partes de un texto mediante contraste, causa, condición o continuidad.", "steps": ["Marca conectores como porque, sin embargo o por ello.", "Piensa qué relación indica cada conector.", "Reemplázalo mentalmente por una palabra equivalente."], "check": "Explicas la función de un conector y cómo organiza las ideas."},
+        {"title": "Vocabulario en contexto", "summary": "Descifra el significado de una palabra a partir de pistas cercanas y del sentido general del texto.", "steps": ["Lee la oración completa.", "Busca definiciones o ejemplos alrededor.", "Prueba cada posible significado en el contexto."], "check": "Eliges un sentido coherente y lo justificas con pistas del texto."},
+        {"title": "Perspectiva y sesgo", "summary": "Analiza qué voces aparecen, cuáles faltan y cómo el punto de vista puede limitar una interpretación.", "steps": ["Identifica quién produce la información.", "Preguntate qué interés o experiencia tiene.", "Compara qué perspectivas no fueron incluidas."], "check": "Puedes señalar una limitación de la fuente sin afirmar que toda la información sea falsa."}
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "short": "MATEMÁTICAS",
+      "icon": "∑",
+      "topics": [
+        {"title": "Porcentajes", "summary": "Calcula aumentos y descuentos expresando una parte respecto de un total y usando equivalencias entre fracciones y porcentajes.", "steps": ["Convierte el porcentaje a fracción o decimal.", "Calcula solo el descuento o el aumento.", "Suma o resta según la situación y verifica el sentido del resultado."], "check": "Distingues el porcentaje aplicado del valor final y compruebas el cálculo."},
+        {"title": "Proporcionalidad", "summary": "Relaciona cantidades que crecen o disminuyen manteniendo la misma razón.", "steps": ["Encuentra el valor unitario o una razón constante.", "Identifica si corresponde multiplicar o dividir.", "Comprueba que se mantiene la proporción."], "check": "Resuelves una situación por proporcionalidad y justificas por qué la estrategia es válida."},
+        {"title": "Promedio", "summary": "Resume un conjunto de datos con el promedio, comprendiendo qué representa y qué no representa.", "steps": ["Suma todos los datos.", "Divide entre el número de datos.", "Comprueba si el resultado está dentro del rango posible."], "check": "Calculas el promedio y puedes explicar qué información se pierde al usarlo."},
+        {"title": "Patrones y funciones", "summary": "Representa cómo una cantidad cambia respecto de otra mediante expresiones, tablas o reglas.", "steps": ["Separa el valor fijo del que cambia.", "Identifica la variable independiente.", "Escribe una expresión y prueba un ejemplo."], "check": "Construyes o interpretas una regla que relaciona las variables."},
+        {"title": "Geometría y área", "summary": "Diferencia perímetro, área y volumen y elige la magnitud adecuada según el problema.", "steps": ["Identifica qué se mide: contorno, superficie o espacio.", "Elige la fórmula correspondiente.", "Usa unidades y realiza la operación."], "check": "Explicas por qué el resultado tiene unidades lineales, cuadradas o cúbicas."},
+        {"title": "Probabilidad", "summary": "Mide qué tan posible es un evento comparando los casos favorables con los posibles.", "steps": ["Cuenta los casos posibles.", "Cuenta los casos que cumplen el evento.", "Forma la razón y simplifícala si corresponde."], "check": "Interpreta una probabilidad entre 0 y 1 y sabe qué significa en el contexto."},
+        {"title": "Lectura de gráficas", "summary": "Extrae tendencias y relaciones de tablas, gráficas y patrones numéricos sin confundir variables o escalas.", "steps": ["Revisa título, ejes y unidades.", "Identifica periodos o categorías.", "Compara la diferencia o tendencia real."], "check": "Sustentas una conclusión con datos visibles y respetas la escala."},
+        {"title": "Argumentación algebraica", "summary": "Justifica procedimientos algebraicos y verifica si una solución satisface la ecuación o desigualdad.", "steps": ["Descompón la operación paso a paso.", "Aplica la operación contraria a ambos lados.", "Sustituye la solución en la expresión original."], "check": "Puedes demostrar por qué una solución es correcta y detectar un error lógico."}
+      ]
+    },
+    {
+      "area": "Sociales y Ciudadanas",
+      "short": "SOCIALES",
+      "icon": "◎",
+      "topics": [
+        {"title": "Participación democrática", "summary": "Identifica mecanismos mediante los cuales ciudadanos e instituciones toman decisiones públicas de forma colectiva.", "steps": ["Define quién puede participar.", "Reconoce qué decisión se toma.", "Diferencia votación, consulta, deliberación y control social."], "check": "Explicas qué participación corresponde a una situación democrática concreta."},
+        {"title": "Derechos fundamentales", "summary": "Reconoce derechos básicos y la forma como pueden garantizarse y conciliarse con otros derechos.", "steps": ["Identifica el derecho involucrado.", "Reconoce cómo afecta a una persona o colectivo.", "Evalúa si existe una restricción razonable y legítima."], "check": "Distingues un derecho vulnerado de una simple preferencia o inconveniencia."},
+        {"title": "Análisis de perspectivas", "summary": "Compara los intereses y argumentos de distintos actores sin convertir tu opinión en la de todos.", "steps": ["Identifica a cada actor.", "Separa lo que hace, piensa y defiende.", "Busca qué intereses explica la diferencia."], "check": "Puedes resumir dos perspectivas opuestas con argumentos fieles a cada una."},
+        {"title": "Evaluar fuentes", "summary": "Analiza el origen, propósito y utilidad de fuentes históricas o sociales antes de aceptar su información.", "steps": ["Pregunta quién produjo la fuente.", "Observa cuándo y para qué se produjo.", "Contrasta la fuente con otras evidencias."], "check": "Justificas por qué una fuente es útil, limitada o necesita contraste."},
+        {"title": "Relaciones causa-consecuencia", "summary": "Vincula acciones o cambios sociales con posibles efectos, evitando resultados absolutos o sin apoyo.", "steps": ["Identifica la acción o condición inicial.", "Explica el mecanismo que produce el cambio.", "Formula consecuencias razonables y sus límites."], "check": "Puedes distinguir una causa directa de un factor que contribuye."},
+        {"title": "Historia y migración", "summary": "Comprende movimientos poblacionales y sus causas ambientales, sociales, económicas o políticas.", "steps": ["Identifica el lugar de origen y destino.", "Busca razones visibles del desplazamiento.", "Evalúa efectos para personas y territorio."], "check": "Explicas varios factores de una migración sin atribuirla a una causa única."},
+        {"title": "Instituciones y territorio", "summary": "Relaciona instituciones públicas, decisiones políticas y organización del territorio.", "steps": ["Reconoce qué institución tiene la competencia.", "Identifica el territorio o población afectada.", "Busca qué relación existe entre norma y territorio."], "check": "Puedes explicar qué entidad decide y qué efecto territorial produce."}
+      ]
+    },
+    {
+      "area": "Ciencias Naturales",
+      "short": "CIENCIAS",
+      "icon": "⚛",
+      "topics": [
+        {"title": "Células y ecosistemas", "summary": "Comprende relaciones entre organismos y niveles de organización biológica usando evidencia del ambiente.", "steps": ["Reconoce productores, consumidores y descomponedores.", "Sigue cómo cambia la materia y la energía.", "Predice consecuencias de una alteración."], "check": "Explicas una cadena o red trófica sin confundir su dirección."},
+        {"title": "Diseño experimental", "summary": "Analiza hipótesis, variables, controles y mediciones para evaluar si una investigación responde su pregunta.", "steps": ["Identifica la pregunta de investigación.", "Separa variable independiente y dependiente.", "Comprueba si hay controles y repeticiones."], "check": "Puedes mejorar un experimento o señalar qué conclusión admite."},
+        {"title": "Energía y movimiento", "summary": "Interpreta cambios de energía, posición y movimiento con modelos simples y datos experimentales.", "steps": ["Define el sistema que analizas.", "Identifica fuerzas o transformaciones de energía.", "Usa unidades y compara magnitudes."], "check": "Relaciones causa y efecto con datos y explicas qué cambió."},
+        {"title": "Materia y química", "summary": "Interpreta propiedades de sustancias, mezclas y cambios químicos o físicos.", "steps": ["Observa si cambia la composición.", "Identifica propiedades medibles.", "Relaciona la evidencia con el modelo químico."], "check": "Distingues un cambio físico de uno químico usando evidencia."},
+        {"title": "Química y pH", "summary": "Relaciona el pH con acidez, basicidad y cambios en sistemas naturales o cotidianos.", "steps": ["Ubica el valor en la escala de pH.", "Interpreta si aumenta o disminuye la acidez.", "Relaciona el cambio con sus posibles efectos."], "check": "Comparas dos muestras de pH y explicas cuál es más ácida."},
+        {"title": "Datos y evidencias", "summary": "Lee tablas y gráficas científicas para comparar tratamientos, tendencias y límites de los resultados.", "steps": ["Revisa variables, unidades y escala.", "Compara los datos relevantes.", "Evalúa si la conclusión está respaldada."], "check": "Expresas una conclusión científica usando datos y reconoces una incertidumbre."}
+      ]
+    },
+    {
+      "area": "Inglés",
+      "short": "INGLÉS",
+      "icon": "EN",
+      "topics": [
+        {"title": "Vocabulario", "summary": "Relaciona palabras frecuentes con descripciones, imágenes o conceptos según el contexto.", "steps": ["Identifica palabras clave.", "Busca significado por relación o contraste.", "Descarta opciones que no encajan."], "check": "Puedes justificar una palabra por su sentido dentro de la situación."},
+        {"title": "Diálogos y pragmática", "summary": "Elige respuestas adecuadas a intercambios breves considerando intención, cortesía y contexto.", "steps": ["Lee el mensaje previo completo.", "Identifica quién habla y qué necesita.", "Selecciona una respuesta natural y relevante."], "check": "Tu respuesta mantiene el tono y continúa el diálogo correctamente."},
+        {"title": "Gramática", "summary": "Completa textos eligiendo tiempos, pronombres, concordancia y estructuras que mantienen la lógica.", "steps": ["Lee el sujeto y el tiempo señalado.", "Busca pistas como yesterday, every day o since.", "Comprueba concordancia y sentido."], "check": "Puedes explicar por qué una forma verbal o pronombre es correcto."},
+        {"title": "Lectura literal", "summary": "Ubica información escrita explícitamente en textos breves sin interpretar más de lo que dice.", "steps": ["Subraya nombres, lugares y acciones.", "Busca la información que pide la pregunta.", "Verifica la opción palabra por palabra."], "check": "Apoyas la respuesta con una evidencia específica del texto."},
+        {"title": "Lectura e idea global", "summary": "Reconoce el tema, propósito o idea principal de un texto breve a partir de varias pistas.", "steps": ["Lee título y primeras frases.", "Identifica qué idea aparece varias veces.", "Descarta opciones limitadas a un detalle."], "check": "Puedes resumir el texto sin reproducir literalmente una sola frase."},
+        {"title": "Inferencias en inglés", "summary": "Obtén conclusiones razonables sobre intención, emoción o relación entre ideas usando el contexto.", "steps": ["Separa información explícita e implícita.", "Busca pistas de tono o consecuencia.", "Elige la inferencia apoyada por más evidencias."], "check": "Justificas la inferencia con palabras o situaciones concretas del texto."}
+      ]
+    }
+  ],
+  "englishLevels": ["Pre A1", "A1", "A2", "B1"],
+  "strategies": [
+    "Lee primero qué te preguntan y luego vuelve al fragmento exacto que lo demuestra.",
+    "Descarta opciones que suenan posibles pero no están apoyadas por la información.",
+    "En tablas y gráficas revisa títulos, unidades, escalas y periodo antes de comparar.",
+    "En ciencias identifica qué cambió, qué se midió y qué se mantuvo igual.",
+    "En matemáticas calcula con unidades y comprueba si el resultado tiene sentido en el contexto.",
+    "En sociales analiza quién habla, qué interés representa y qué evidencia aporta."
+  ],
+  "plan": [
+    {"day": "Día 1", "title": "Lectura crítica", "detail": "Practica tesis, inferencias y evaluación de argumentos."},
+    {"day": "Día 2", "title": "Matemáticas", "detail": "Repasa porcentajes, razones y lectura de datos."},
+    {"day": "Día 3", "title": "Sociales", "detail": "Conecta derechos, instituciones y participación con casos."},
+    {"day": "Día 4", "title": "Ciencias", "detail": "Interpreta experimentos, variables y modelos científicos."},
+    {"day": "Día 5", "title": "Inglés", "detail": "Practica vocabulario contextual, diálogos y lectura breve."},
+    {"day": "Día 6", "title": "Errores frecuentes", "detail": "Repite las áreas con menor porcentaje en tu historial."},
+    {"day": "Día 7", "title": "Simulacro corto", "detail": "Responde sin interrupciones y revisa cada explicación."}
+  ],
+  "resources": [
+    {
+      "title": "Guía de orientación Saber 11° 2026-2",
+      "detail": "Estructura, tiempos, competencias y especificaciones oficiales.",
+      "url": "https://www.icfes.gov.co/wp-content/uploads/2026/03/17-marzo-guia-de-orientacion-saber-11-2026-2.pdf"
+    },
+    {
+      "title": "Caja de herramientas Saber 11",
+      "detail": "Qué evalúa, práctica, ejemplos explicados e interpretación.",
+      "url": "https://www.icfes.gov.co/caja-de-herramientas-saber-11/"
+    },
+    {
+      "title": "Práctica oficial",
+      "detail": "Cuadernillos de preguntas y ejemplos de pruebas anteriores.",
+      "url": "https://www.icfes.gov.co/caja-de-herramientas-saber-11/practica/"
+    },
+    {
+      "title": "¿Qué se evalúa?",
+      "detail": "Competencias y conocimientos de las cinco pruebas.",
+      "url": "https://www.icfes.gov.co/caja-de-herramientas-saber-11/que-se-evalua/"
+    },
+    {
+      "title": "Resultados Saber 11",
+      "detail": "Consulta las guías oficiales para interpretar puntajes y niveles.",
+      "url": "https://www.icfes.gov.co/evaluaciones-icfes/saber-11/resultados-examen-saber-11/"
+    }
+  ]
+}
